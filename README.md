@@ -1,1 +1,1 @@
-# AngularSix
+# Angular.JS App
