@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a routerLink="" [class.activated]="currentUrl == '/'">
+          <i class="material-icons">supervised_user_circle</i>
+        </a>
+      </li>
+      <li>
+        <a routerLink="posts" [class.activated]="currentUrl == '/posts'">
+          <i class="material-icons">message</i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</body>
+</html>
+
